@@ -4,12 +4,12 @@ require("dotenv").config();
 
 // Default values for global variables
 global.available = process.env.AVAILABLE || true;
-global.autoReadAll = process.env.AUTO_READ_ALL || false;
+global.autoReadAll = process.env.AUTO_READ_ALL || true;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
 global.autoTyping = process.env.AUTO_TYPING || false;
-global.autoRecord = process.env.AUTO_RECORD || false;
+global.autoRecord = process.env.AUTO_RECORD || true;
 global.groupevent = process.env.GROUPEVENT || false;
 global.statusseen = process.env.STATUSSEEN || true;
 global.autoreadgc = process.env.AUTOREADGC || true;
@@ -30,10 +30,10 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916297175943", "919362639362"];
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["27847826044", "27847826044"];
 global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916297175943", "919362639362"];
 global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
-global.OwnerName = process.env.OWNER_NAME || "Kai";
+global.OwnerName = process.env.OWNER_NAME || "KaiX";
 global.BotName = process.env.BOT_NAME || "A17";
 global.packname = process.env.PACK_NAME || "A17 Bot";
 global.author = "By: Kai";
